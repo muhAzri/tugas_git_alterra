@@ -12,7 +12,7 @@ String master() {
 }
 
 String development(){
-  String text = 'Development';
+  String text = 'Development Feature B';
 
   return text;
 }
