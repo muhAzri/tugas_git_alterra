@@ -1,8 +1,6 @@
-import 'dart:html';
 
-main() {
-  print(master());
-}
+
+main() {}
 
 String master() {
   /// Ini Master
@@ -11,8 +9,12 @@ String master() {
   return text;
 }
 
-String development(){
-  String text = 'Development';
+String development() {
+  String text = 'Development feature';
 
   return text;
+}
+
+void feature() {
+  print(development());
 }
